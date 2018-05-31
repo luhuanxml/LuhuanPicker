@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.luhuan.luhuanpicker.adapter.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/photo_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <CheckBox
+        android:id="@+id/check_photo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:button="@null"
+        android:background="@drawable/check_photo"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+</com.luhuan.luhuanpicker.adapter.SquareLayout>
